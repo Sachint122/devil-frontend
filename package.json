@@ -9,6 +9,10 @@
       "import": "./index.js"
     }
   },
+  "files": [
+    "index.js",
+    "src"
+  ],
   "scripts": {
     "check:imports": "node scripts/check-imports.mjs"
   },
