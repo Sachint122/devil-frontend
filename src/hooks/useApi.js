@@ -1,6 +1,6 @@
 ﻿import axios from 'axios';
-import { getApiConfig, updateToken, clearToken as clearGlobal } from './apiConfig';
-import { useApiContext } from './ApiProvider';
+import { getApiConfig, updateToken, clearToken as clearGlobal } from '../context/apiConfig';
+import { useApiContext } from '../context/ApiProvider';
 
 export const useApi = () => {
   let context = null;

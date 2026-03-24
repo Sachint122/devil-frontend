@@ -2,8 +2,16 @@
   "name": "devil-frontend",
   "version": "1.0.0",
   "description": "React hooks and helpers for frontend development",
+  "type": "module",
   "main": "index.js",
-  "module": "index.esm.js",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "scripts": {
+    "check:imports": "node scripts/check-imports.mjs"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Sachint122/devil-frontend.git"
@@ -19,7 +27,11 @@
   "author": "sachin-tiwari",
   "license": "ISC",
   "peerDependencies": {
-    "react": ">=17.0.0",
-    "axios": ">=1.0.0"
+    "axios": ">=1.0.0",
+    "react": ">=17.0.0"
+  },
+  "devDependencies": {
+    "acorn": "^8.16.0",
+    "acorn-jsx": "^5.3.2"
   }
 }

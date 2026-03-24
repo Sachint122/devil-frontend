@@ -1,5 +1,5 @@
 ﻿import { useEffect, useRef } from 'react';
-import { useApi } from './useApi.js';
+import { useApi } from './useApi';
 
 export const useClickOutside = (onClose, options = {}) => {
   const { apiFn, setData, revertData } = options;

@@ -1,5 +1,5 @@
 ﻿import { useState, useEffect, useRef, useCallback } from 'react';
-import { useApi } from './useApi.js';
+import { useApi } from './useApi';
 
 export const useInfiniteScroll = (url, setData, limit = 10) => {
   const [page, setPage]       = useState(1);
