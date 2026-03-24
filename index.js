@@ -1,9 +1,9 @@
 // Context
-export { ApiProvider } from "./context/ApiProvider.js";
+export { ApiProvider } from "./context/ApiProvider.jsx";
 export {
-  configureApi,
-  updateToken,
-  clearToken,
+    configureApi,
+    updateToken,
+    clearToken,
 } from "./context/apiConfig.js";
 
 // Hooks
@@ -14,7 +14,7 @@ export { useFetch } from "./hooks/useFetch.js";
 export { useInfiniteScroll } from "./hooks/useInfiniteScroll.js";
 export { useOptimistic } from "./hooks/useOptimistic.js";
 export { useToggle } from "./hooks/useToggle.js";
-export { Show } from "./hooks/conditionalRender.js";
+export { Show } from "./hooks/conditionalRender.jsx";
 
 // Utils
 export { capitalize } from "./utils/capitalize.js";
