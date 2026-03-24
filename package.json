@@ -1,0 +1,25 @@
+{
+  "name": "devil-frontend",
+  "version": "1.0.0",
+  "description": "React hooks and helpers for frontend development",
+  "main": "index.js",
+  "module": "index.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sachint122/devil-frontend.git"
+  },
+  "homepage": "https://github.com/Sachint122/devil-frontend#readme",
+  "keywords": [
+    "react",
+    "hooks",
+    "frontend",
+    "helper",
+    "useApi"
+  ],
+  "author": "sachin-tiwari",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "axios": ">=1.0.0"
+  }
+}
