@@ -1,6 +1,6 @@
 {
   "name": "devil-frontend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React hooks and helpers for frontend development",
   "type": "module",
   "main": "index.js",
