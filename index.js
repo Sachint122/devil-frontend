@@ -1,25 +1,25 @@
-// index.js (ESM)
-export { ApiProvider } from "./src/context/ApiProvider.js";
+// Context
+export { ApiProvider } from "./context/ApiProvider.js";
 export {
-    configureApi,
-    updateToken,
-    clearToken,
-} from "./src/context/apiConfig.js";
+  configureApi,
+  updateToken,
+  clearToken,
+} from "./context/apiConfig.js";
 
 // Hooks
-export { useApi } from "./src/hooks/useApi.js";
-export { useClickOutside } from "./src/hooks/useClickOutside.js";
-export { useDebounce } from "./src/hooks/useDebounce.js";
-export { useFetch } from "./src/hooks/useFetch.js";
-export { useInfiniteScroll } from "./src/hooks/useInfiniteScroll.js";
-export { useOptimistic } from "./src/hooks/useOptimistic.js";
-export { useToggle } from "./src/hooks/useToggle.js";
-export { Show } from "./src/hooks/conditionalRender.js";
+export { useApi } from "./hooks/useApi.js";
+export { useClickOutside } from "./hooks/useClickOutside.js";
+export { useDebounce } from "./hooks/useDebounce.js";
+export { useFetch } from "./hooks/useFetch.js";
+export { useInfiniteScroll } from "./hooks/useInfiniteScroll.js";
+export { useOptimistic } from "./hooks/useOptimistic.js";
+export { useToggle } from "./hooks/useToggle.js";
+export { Show } from "./hooks/conditionalRender.js";
 
 // Utils
-export { capitalize } from "./src/utils/capitalize.js";
-export { capitalizeWords } from "./src/utils/capitalizeWords.js";
-export { formatDate } from "./src/utils/formatDate.js";
-export { timeAgo } from "./src/utils/timeAgo.js";
-export { isEmptyObject } from "./src/utils/isEmptyObject.js";
-export { slugify } from "./src/utils/slugify.js";
+export { capitalize } from "./utils/capitalize.js";
+export { capitalizeWords } from "./utils/capitalizeWords.js";
+export { formatDate } from "./utils/formatDate.js";
+export { timeAgo } from "./utils/timeAgo.js";
+export { isEmptyObject } from "./utils/isEmptyObject.js";
+export { slugify } from "./utils/slugify.js";
